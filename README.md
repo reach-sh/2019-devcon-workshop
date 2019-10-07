@@ -6,11 +6,22 @@ https://devcon.org/agenda?talk=recMj704hGSTMLDVK
 
 --
 
-The only requirement is to have Docker and `docker-compose`
-installed. Obviously, you'll need to have a basic UNIX environment
-with `make` available, as well.
+The workshop is based on one of the Reach examples:
+
+https://github.com/reach-sh/reach-lang/tree/master/examples/multisig
+
+--
+
+The only requirement to participate is to have Docker and
+`docker-compose` installed. Obviously, you'll need to have a basic
+UNIX environment with `make` available, as well.
 
 --
 
 The repository is divided into directories for each stage of the
 project you'll be working on.
+
+`initial` - The version that you'll start from
+`minimal` - A minimal version without interesting client behavior
+`final` - The final version of the application.
+
