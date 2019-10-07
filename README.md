@@ -3,6 +3,11 @@ DevCon Workshop
 
 [Building a Formally-Verified DApp with the Reach DSL, today!](https://devcon.org/agenda?talk=recMj704hGSTMLDVK)
 
+The slides [are available
+here](https://docs.google.com/presentation/d/e/2PACX-1vQDfYf7EI7dhFN24nBPL0M0QC5YbNjr_veUZiy-R22aqzihL_b1DirBS-KOlifAt3y46sc6XNHbM7O0/pub?start=false&loop=false&delayms=15000),
+but they don't talk about the project; they're just an introduction to
+the platform.
+
 ---
 
 The workshop is based on one of the Reach examples:

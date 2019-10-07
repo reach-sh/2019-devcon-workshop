@@ -14,6 +14,7 @@ import * as MULTISIG from './build/multisig.mjs';
       console.log(`Parent deposits ${stdlib.fromWei(amt)}`);
       return amt; },
     approve: (howMuch, balance) => {
+      // stdlib exports most functions from https://github.com/indutny/bn.js/
       const ans = stdlib.le( balance, smallest ) || stdlib.lt( howMuch, stdlib.div( balance, stdlib.toBN(2) ) );
       console.log(`Parent answers ${ans} to request for ${stdlib.fromWei(howMuch)}`);
       return ans; } };
