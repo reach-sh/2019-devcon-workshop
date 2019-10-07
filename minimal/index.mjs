@@ -8,8 +8,7 @@ import * as MULTISIG from './build/multisig.mjs';
   const parentCtc = await parent.deploy(MULTISIG);
   const parentInteract = {
     allowance: () => {
-      const amt = stdlib.toWeiBN('50', 'ether');
-      return amt; },
+      return stdlib.toWeiBN('50', 'ether'); },
     approve: (howMuch, balance) => {
       void(howMuch, balance);
       return true; } };

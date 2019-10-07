@@ -25,3 +25,14 @@ project you'll be working on.
 `minimal` - A minimal version without interesting client behavior
 `final` - The final version of the application.
 
+--
+
+We recommend starting the project by first moving to the `final`
+directory and running:
+
+```
+$ make clean build run
+```
+
+to ensure that all files and utilities you will need throughout the
+project are available.
