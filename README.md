@@ -1,8 +1,7 @@
 This repository holds the materials for participants in the 2019
 DevCon Workshop
 
-Building a Formally-Verified DApp with the Reach DSL, today!
-https://devcon.org/agenda?talk=recMj704hGSTMLDVK
+[Building a Formally-Verified DApp with the Reach DSL, today!](https://devcon.org/agenda?talk=recMj704hGSTMLDVK)
 
 ---
 
